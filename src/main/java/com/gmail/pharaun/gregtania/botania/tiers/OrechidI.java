@@ -26,9 +26,9 @@ import java.util.Map;
 
 public class OrechidI extends SubTileAbstractEvolvedOrechid {
 
-	private static final int COST = 17500;
+	private static final int COST = 1400;
 	private static final int COST_GOG = 700;
-	private static final int DELAY = 100;
+	private static final int DELAY = 2;
 	private static final int DELAY_GOG = 2;
 
 	private static final int ORE_TIER = 0;
