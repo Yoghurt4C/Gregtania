@@ -35,7 +35,7 @@ public class OrechidIgnemI extends SubTileAbstractEvolvedOrechid {
 
 	@Override
 	public boolean canOperate() {
-		return supertile.getWorldObj().provider.isHellWorld;
+		return true;
 	}
 
 	@Override

@@ -37,8 +37,7 @@ public class OrechidEndiumI extends SubTileAbstractEvolvedOrechid {
 
     @Override
 	public boolean canOperate() {
-		boolean isEndWorld = supertile.getWorldObj().provider.dimensionId == 1;
-		return isEndWorld;
+		return true;
 	}
 
 	@Override
